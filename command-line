@@ -1,0 +1,17 @@
+/*
+Program to check whether two arguments are given or not
+*/
+#include <stdio.h>
+
+int main( int argc, char *argv[] )  {
+
+   if( argc == 2 ) {
+      printf("Argument is %s\n", argv[1]);
+   }
+   else if( argc > 2 ) {
+      printf("more than two arguments supplied.\n");
+   }
+   else {
+      printf("incorrect expected.\n");
+   }
+}
